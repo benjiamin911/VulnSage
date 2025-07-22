@@ -1,0 +1,28 @@
+# Core AI/ML dependencies
+langchain-google-vertexai>=1.0.0
+langchain>=0.1.0
+google-cloud-aiplatform>=1.38.0
+
+# Async support
+asyncio>=3.4.3
+aiofiles>=23.0.0
+
+# Code analysis
+tree-sitter>=0.20.0
+tree-sitter-python>=0.20.0
+tree-sitter-javascript>=0.20.0
+tree-sitter-java>=0.20.0
+
+# Vector storage and similarity search
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+
+# Utilities
+pathlib2>=2.3.7
+dataclasses>=0.6
+typing-extensions>=4.8.0
+
+# For demo/testing
+flask>=2.3.0
+requests>=2.31.0 
